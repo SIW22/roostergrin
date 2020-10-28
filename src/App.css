@@ -70,8 +70,8 @@ body {
 }
 
 .welcome-btn {
-  height: 8%;
-  width: 12%;
+  height: 4vw;
+  width: 12vw;
   background-color: mediumorchid;
   margin-top: 2vw;
   color: white;
@@ -146,7 +146,6 @@ body {
 .section-2-container {
   position: relative;
   width: 100vw;
-  /* height: auto; */
   top: -.4vw;
   left: 0;
   display: flex;
@@ -159,15 +158,26 @@ body {
   width: 100vw;
 }
 
-.banner-1 {
+.banner {
   position: relative;
   width: 100%;
 }
 
 .title-and-btn-group {
   position: absolute;
-  margin-left: 15vw;
-  margin-top: -20vw;
+  margin-left: 16vw;
+  margin-top: -25vw;
+}
+
+.generic-btn {
+  height: 4vw;
+  width: 12vw;
+  background-color: darkorange;
+  margin-top: 2vw;
+  color: white;
+  border-radius: 2%;
+  font-size: 1em;
+  letter-spacing: .2em;
 }
 
 
@@ -211,6 +221,11 @@ body {
   margin-right: 7vw;
 }
 
+.icons-and-text {
+  display: flex;
+  flex-direction: column;
+}
+
 .icon-group {
   position: relative;
   display: flex;
@@ -219,18 +234,41 @@ body {
   margin: 5vw 0vw 0vw 10vw;
 }
 
+.icon-disk {
+  position: relative;
+  display: flex; 
+  justify-content: center;
+  transition: .25s ease;
+}
+
+.icon-disk:hover {
+  transform: scale(.9);
+}
+
+.icon-disk:hover .icon-circle {
+  background-color: lightgray;
+}
+
+.icon-disk:hover .icon {
+  transform: scale(1.5) rotate(4deg);
+  filter: drop-shadow(2px 3px 2px rgba(0,0,0,0.3));
+}
+
 .icon-circle {
   position: absolute;
   height: 7vw;
   width: 7vw;
   border-radius: 50%;
+  background-color: whitesmoke;
   border: .2vw solid rebeccapurple;
+  transition: .25s ease;
 }
 
 .icon {
   position: relative;
   height: 5vw;
-  margin-top: .7vw;
+  margin-top: .8vw;
+  transition: .25s ease;
 }
 
 .clipboard {
@@ -246,4 +284,23 @@ body {
   position: relative;
   color: black;
   margin-top: 2vw;
+  font-size: 1vw;
+}
+
+
+
+.section-4-container {
+  position: relative;
+  width: 100vw;
+  top: -.8vw;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-and-btn-group-2 {
+  position: absolute;
+  margin-left: 50vw;
+  width: 25vw;
 }

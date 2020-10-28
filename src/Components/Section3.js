@@ -13,32 +13,48 @@ const Section3 = () => {
 
 			<div className="icon-block-group">
 				<div className="icon-block">
+
 					<div className="left-icons">
+
 						<div className="icon-group">
-							<img src={"assets/home-expertise.svg"} alt="clipboard icon" className="icon clipboard"/>
-							<div className="icon-circle"></div>
-							<h3 className="icon-text">LOREM</h3>
+							<div className="icon-disk icon-1">
+								<div className="icon-circle"></div>
+								<img src={"assets/home-expertise.svg"} alt="clipboard icon" className="icon clipboard"/>
+							</div>
+								<h3 className="icon-text">LOREM</h3>
 						</div>
 						<div className="icon-group">
-							<img src={"assets/home-lab.svg"} alt="goggles icon" className="icon goggles"/>
-							<div className="icon-circle"></div>
-							<h3 className="icon-text">LOREM IPSUM</h3>
-						</div>
+							<div className="icon-disk icon-2">
+								<div className="icon-circle"></div>
+								<img src={"assets/home-lab.svg"} alt="goggles icon" className="icon goggles"/>
+							</div>
+								<h3 className="icon-text">LOREM IPSUM</h3>
+						</div>		
 					</div>
+
 					<div className="right-icons">
+
 						<div className="icon-group">
-							<img src={"assets/home-hygiene.svg"} alt="mask icon" className="icon mask"/>
-							<div className="icon-circle"></div>
-							<h3 className="icon-text">LOREM IPSUM</h3>
+							<div className="icon-disk icon-3">
+								<div className="icon-circle"></div>
+								<img src={"assets/home-hygiene.svg"} alt="mask icon" className="icon mask"/>
+							</div>
+								<h3 className="icon-text">LOREM IPSUM</h3>
 						</div>
+
 						<div className="icon-group">
-							<img src={"assets/home-retention.svg"} alt="calendar icon" className="icon calendar"/>
-							<div className="icon-circle"></div>
-							<h3 className="icon-text">LOREM</h3>
+							<div className="icon-disk icon-4">
+								<div className="icon-circle"></div>
+								<img src={"assets/home-retention.svg"} alt="calendar icon" className="icon calendar"/>
+							</div>
+								<h3 className="icon-text">LOREM</h3>
 						</div>
+
 					</div>
+
 				</div>
 			</div>
+
 		</div>
 	);
 }
