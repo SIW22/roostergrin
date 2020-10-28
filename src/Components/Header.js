@@ -4,7 +4,7 @@ class Header extends Component {
 
 	render() {
 		return (
-			<div className="header-group">
+			<div className="header-container">
 				<img src={"assets/hero.jpg"} alt="golden gate bridge" className="hero-image"/>
 				<img src={"assets/logo-white.svg"} alt="" className="logo-white"/>
 
