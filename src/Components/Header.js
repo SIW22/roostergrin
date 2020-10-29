@@ -2,6 +2,25 @@ import React, { Component } from 'react';
 
 class Header extends Component {
 
+	componentDidMount() {
+
+	let welcome = document.querySelector('.welcome-to-text');
+	let roosterGrin = document.querySelector('.rooster-grin-text');
+	let welcomeBtn = document.querySelector('.welcome-btn');
+
+	function fadeIn() {
+		welcome.style.animation = "fadeIn 5s forwards";
+		welcome.style.animationDelay = ".75s";
+		roosterGrin.style.animation = "fadeIn 5s forwards";
+		roosterGrin.style.animationDelay = "1.5s";
+		welcomeBtn.style.animation = "fadeIn 5s forwards";
+		welcomeBtn.style.animationDelay = "2s";
+	}
+
+	fadeIn();
+
+
+	}
 	render() {
 		return (
 			<div className="header-container">

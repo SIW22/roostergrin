@@ -5,8 +5,8 @@ class Carousel extends Component {
 	componentDidMount() {
 		
 		const circle1 = document.querySelector('.circle-1');
-		const circle2 = document.querySelector('.circle-1');
-		const circle3 = document.querySelector('.circle-1');
+		const circle2 = document.querySelector('.circle-2');
+		const circle3 = document.querySelector('.circle-3');
 		
 		let carouselGroup = document.querySelector('.carousel-group');
 		let carousel = document.querySelector('.carousel-panel-container');
@@ -29,19 +29,17 @@ class Carousel extends Component {
 
 		function changeDots() {
 			if (selectedIndex === 0) {
-				circle1.style.opacity = '1';
+				circle1.style.opacity =  '1';
 				circle2.style.opacity = '.5';
 				circle3.style.opacity = '.5';
-			}
-			if (selectedIndex === 1) {
+			} else if (selectedIndex === 1) {
 				circle1.style.opacity = '.5';
-				circle2.style.opacity = '1';
+				circle2.style.opacity =  '1';
 				circle3.style.opacity = '.5';
-			}
-			if (selectedIndex === 2) {
+			} else if (selectedIndex === 2) {
 				circle1.style.opacity = '.5';
 				circle2.style.opacity = '.5';
-				circle3.style.opacity = '1';
+				circle3.style.opacity =  '1';
 			}
 		}
 
