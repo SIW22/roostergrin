@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# RoosterGrin Sample Site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Spun up new React App using create-react-app, npm. 
 
-## Available Scripts
+Loaded supplied assets, except for social media icons, as the ones supplied were outdated. 
 
-In the project directory, you can run:
+## Design Requirements
 
-### `npm start`
+1. Mockups are followed 
+	- All the key elements are placed as directed.
+2. Carousel in last section 
+	- I opted to include a bit of 3D CSS here.
+3. Attention to detail 
+	- I used a lof of visual cues in the mockup to place items such as the logo in the header, and how it overlaps portions fo the bridge.
+4. Mobile Responsive 
+	- All of the text and placement cues are derived from the screen width, so everything scales proportionally. I used only a single media query, for the social media icons.
+5. Animations 
+	- As requested, the title text fades in, I also did some subtle hover animations on the "more content" arrows, as well as the social media icons at the bottom. Although the use of "subtle" here could be interpretted differently, I don't find the slightly fancier animations I added for the icons to be distracting.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technical Requirements
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Modular and concise code 
+	- Using react, I broke each horizontal section into its own component; they all share one css file that is accesssed from index.js.
+2. Fully functional capabilities of built features 
+	- Without content to populate links and articles, all of the buttons are inactive, but all feature hover, focus, and active states.
+3. Understanding best practices of web development 
+	- I'd be a fool to think I know all the best proactices of anything, but to the best of my current knowledge, I haven't made any egregious errors! 
+4. Naming conventions and styling 
+	- As I believe is customary, I used shishka-bob case for classNames, and camelCase for functions and objects,
+5. Best use of images and assets 
+	- The photos were all high res, so they could've been scaled down, but I opted to used them as supplied.
+6. Use of a grid system 
+	- Although I employed a good deal of flex-box, I did not use a grid on this project. 
 
-### `npm test`
+## Required Features:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Fade In Effect for the hero title 
+	- the hero title, company name, and button fade-in using staggered animation delays. 
+2. Subtle animation on the four icons 
+	- My use of the word subtle may not fall within the normal use of subtle, but again, I don't think their distracting. 
+3. Fully Functional Site 
+	- As functional as a site with no content can be.
 
-### `npm run build`
+## Bonus (optional) Features:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Use of dev server 
+	- I ran a local server during development, and used Chrome dev tools for debugging, before deploying using Surge.
+2. Front end framework 
+	- React.js exclusively, all CSS is custom. 
+3. Dynamic backend from a CMS 
+	- Seemed unnecessary given no additional content to neccesitate/populate a server.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
