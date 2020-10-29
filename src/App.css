@@ -453,6 +453,7 @@ body {
 }
 
 .name-and-date {
+  font-size: 1.25vw;
   text-align: center;
   padding-top: 2.5vw;
   padding-bottom: 1.5vw;
@@ -460,6 +461,7 @@ body {
 }
 
 .quote {
+  font-size: 1vw;
   padding-left: 2vw;
   padding-right: 2vw;
   max-width: 30vw;
@@ -591,4 +593,10 @@ body {
 
 .facebook-color:hover {
   opacity: 1;
+}
+
+@media only screen and (max-width: 1000px){
+  .social-media-icon {
+    height: 8vw;
+  }
 }
